@@ -1,5 +1,7 @@
 package programmers.level1;
 
+import java.util.Stack;
+
 /**
  * 문제: 문자열 뒤집기
  * 
@@ -22,6 +24,7 @@ package programmers.level1;
 public class ReverseString {
     public String solution(String s) {
         // 여기에 코드를 작성해주세요
-        return "";
+        StringBuilder sb = new StringBuilder(s);
+        return sb.reverse().toString();
     }
 } 
